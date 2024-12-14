@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medicare</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
 </head>
-
 <body>
     <!-- Header Section Starts  -->
     <header class="header">
         <div class="logo">
-            <img src="assets/images/Medicare logo.png" alt="Medicare Logo">
+            <a href="index.html">
+                <img src="assets/images/Medicare logo.png" alt="Medicare Logo">
+              </a>
+              
         </div>
 
         <div class="menu-toggle">
@@ -25,10 +27,13 @@
         </div>
 
         <nav class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#individual">Individual Medical Insurance</a>
-            <a href="#group">Group Medical Insurance</a>
-            <button class="contact-btn">Contact Us</button>
+            <a href="index.html">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Individual Medical Insurance</a>
+            <a href="#services">Group Medical Insurance</a>
+            <a href="contactus.html"><button class="contact-btn">Contact Us</button>
+              </a>
+              
         </nav>
     </header>
     <!-- Header Section Ends  -->
@@ -41,8 +46,9 @@
     </section>
     <!-- Hero Section Ends  -->
     <!-- About Us Section    -->
-    <section class="stats-section">
+    <section class="stats-section" id="about">
         <div class="left-content">
+            <div class="section-label">About Us</div>
             <h2 class="title-main">Forward-Thinking</h2>
             <h3 class="title-sub">Insurance Solutions</h3>
             <a href="#" class="get-started-btn">Get Started</a>
@@ -53,10 +59,11 @@
             </div>
         </div>
         <div class="right-content">
-            <p>We've built an innovative platform focused on empowering insurers, brokers, and agents across the UAE and
-                MENA region to co-create comprehensive individual and group insurance plans.</p>
-            <p>We guide our partners through every phase, from developing customized personal insurance solutions to
-                creating flexible group coverage options, ensuring the best possible service for their clients.</p>
+            <p>At Medicare, we provide trusted Takaful insurance services in the UAE. As part of the Al-Futtaim Group,
+                we’ve been offering Sharia-compliant solutions since 2017, backed by strong financial ratings and a
+                dedicated team.</p>
+            <p>Our comprehensive coverage caters to industries like logistics, banking, and retail, delivering peace of
+                mind with competitive rates and exceptional service.</p>
             <div class="stats-grid">
                 <div class="stat-item">
                     <div class="stat-number" data-target="10">0</div>
@@ -74,6 +81,124 @@
         </div>
     </section>
     <!-- About Us Section Ends  -->
+    <!-- Our Services Section Starts -->
+    <section class="services-section" id="services">
+        <div class="section-label">Our Services</div>
+        <div class="services-grid">
+            <div class="services-container">
+                <!-- Business Health Insurance Card -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/images/Individual Medical Insurance.png" alt="individual medical insurance">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Individual Medical Insurace</h3>
+                        <p class="service-description">Medicare, in partnership with Orient Takaful, provides
+                            Sharia-compliant medical insurance with comprehensive coverage and competitive rates. Trust
+                            us for quality healthcare and peace of mind.</p>
+                        <a href="#" class="service-link">Get started</a>
+                    </div>
+                </div>
+
+                <!-- Group Health Insurance Card -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/images/Group Medical Insurance.png" alt="Group Medical Insurance">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Group Medical Insurance</h3>
+                        <p class="service-description">Partnering with Orient Takaful, Medicare delivers
+                            Sharia-compliant group medical insurance designed for businesses, offering comprehensive
+                            coverage at competitive rates to safeguard your team’s health.</p>
+                        <a href="#" class="service-link">Get started</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature Panel -->
+            <div class="feature-panel">
+                <h2 class="feature-title">We Provide Comprehensive Takaful Insurance</h2>
+                <p class="feature-description">Experience reliable and Sharia-compliant insurance services tailored for you.</p>
+                <ul class="feature-list">
+                    <li class="feature-item">
+                        <span class="check-icon">✓</span>
+                        Flexible plans for individuals and businesses
+                    </li>
+                    <li class="feature-item">
+                        <span class="check-icon">✓</span>
+                        Competitive coverage at affordable rates
+                    </li>
+                    <li class="feature-item">
+                        <span class="check-icon">✓</span>
+                        Trusted by leading industries and authorities
+                    </li>
+                </ul>
+                <!-- <a href="#" class="explore-btn">Explore</a> -->
+            </div>
+        </div>
+    </section>
+    <!-- Our Services Section Ends  -->
+     <!-- Faq -->
+     <div class="medicare-faq-wrapper">
+     <section class="medicare-faq">
+        <div class="medicare-faq__header">
+            <!-- <div class="medicare-faq__label">FAQ</div> -->
+            <h2 class="medicare-faq__title">Frequently Asked Questions</h2>
+        </div>
+
+        <div class="medicare-faq__list">
+            <div class="medicare-faq__item">
+                <button class="medicare-faq__question">
+                    Why choose Medicare for Takaful insurance?
+                    <span class="medicare-faq__toggle"></span>
+                </button>
+                <div class="medicare-faq__answer">
+                    Medicare offers comprehensive, Sharia-compliant coverage at competitive rates, backed by strong financial ratings and exceptional customer service.
+                </div>
+            </div>
+
+            <div class="medicare-faq__item">
+                <button class="medicare-faq__question">
+                    Who can apply for Takaful insurance?
+                    <span class="medicare-faq__toggle"></span>
+                </button>
+                <div class="medicare-faq__answer">
+                    Our plans are available to individuals, and groups looking for ethical and affordable insurance solutions.
+                </div>
+            </div>
+
+            <div class="medicare-faq__item">
+                <button class="medicare-faq__question">
+                    How does the claims process work?
+                    <span class="medicare-faq__toggle"></span>
+                </button>
+                <div class="medicare-faq__answer">
+                    Visit our website, Medicare, to submit your claims documents, and our team will guide you through the fast and transparent process.
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+      <!-- Faq -->
+       <!-- Footer -->
+       <footer class="medicare__minimal-footer">
+        <div class="medicare__minimal-footer-content">
+            <div class="medicare__minimal-footer-copyright">
+             All rights reserved - Copyright © 2024 Medicare 
+            </div>
+            <div class="medicare__minimal-footer-links">
+                <a href="index.html" class="medicare__minimal-footer-link">Home</a>
+                <a href="#about" class="medicare__minimal-footer-link">About Us</a>
+                <a href="#services" class="medicare__minimal-footer-link">Individual Medical Insurance</a>
+                <a href="#services" class="medicare__minimal-footer-link">Group Medical Insurance</a>
+                <a href="contactus.html" class="medicare__minimal-footer-link">Contact Us</a>
+            </div>
+        </div>
+        <div class="medicare__minimal-footer-powered">
+            Powered by <a href="https://gulfnados.com/">Gulfnados Technology Systems</a>
+        </div>
+    </footer>
+        <!-- Footer  -->
     <script src="script.js"></script>
 </body>
 

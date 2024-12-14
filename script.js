@@ -39,3 +39,51 @@
         // Observe the stats grid
         observer.observe(document.querySelector('.stats-grid'));
         // About Us Seciton Ends 
+        // Faq
+        const faqItems = document.querySelectorAll('.medicare-faq__item');
+
+        faqItems.forEach(item => {
+            const question = item.querySelector('.medicare-faq__question');
+            question.addEventListener('click', () => {
+                // Close other items
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item && otherItem.classList.contains('active')) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+                
+                // Toggle current item
+                item.classList.toggle('active');
+            });
+        });
+        // Faq
+        // Scroll 
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Get the target section
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetSection = document.querySelector(targetId);
+                if (!targetSection) return;
+                
+                // Calculate position accounting for header height
+                const headerHeight = document.querySelector('.header').offsetHeight;
+                const targetPosition = targetSection.offsetTop - headerHeight;
+                
+                // Smooth scroll to target
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile menu if open
+                const navLinks = document.querySelector('.nav-links');
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    document.querySelector('.menu-toggle').classList.remove('active');
+                }
+            });
+        });
