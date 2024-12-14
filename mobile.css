@@ -41,6 +41,11 @@
     }
 
     /* About Us Section */
+
+    .section-label {
+        text-align: center;
+    }
+    
     .stats-section {
         grid-template-columns: 1fr;
         padding: 50px 5%;
