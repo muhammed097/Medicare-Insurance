@@ -665,6 +665,27 @@
             height: 150px;
             resize: vertical;
         }
+
+        .form-group select {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #e1e1e1;
+            border-radius: 8px;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 16px;
+            color: #666;
+            background-color: white;
+            cursor: pointer;
+        }
+        
+        .form-group select:focus {
+            outline: none;
+            border-color: #2196F3;
+        }
+        
+        .form-group select option {
+            padding: 10px;
+        }
         
         .submit-button {
             background: #2196F3;
@@ -718,5 +739,123 @@
             margin-top: 20px;
             border-radius: 20px;
             overflow: hidden;
+        }
+        
+        /* Individual Takaful  */
+        .individual-plan-section {
+            padding: 100px 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+        }
+        
+        .individual-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .content-label {
+            color: #2196F3;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .content-body {
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        .content-body p {
+            margin-bottom: 25px;
+        }
+        
+        .content-body strong {
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+        
+        .intro-paragraph {
+            font-size: 1.1em;
+            color: #1a1a1a;
+        }
+        
+        .cta-text {
+            color: #2196F3;
+            font-size: 1.2em;
+            text-align: left;
+            margin-top: 40px;
+        }
+        
+        /* Individual Ends  */
+        /* Group Starts */
+        .group-medical-section {
+            padding: 100px 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+        }
+        
+        .group-medical-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .group-medical-label {
+            color: #2196F3;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .group-medical-content {
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        .group-medical-paragraph {
+            margin-bottom: 25px;
+        }
+        
+        .group-medical-content strong {
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+        
+        .group-medical-intro {
+            font-size: 1.1em;
+            color: #1a1a1a;
+            margin-bottom: 25px;
+        }
+        
+        .group-medical-cta {
+            color: #2196F3;
+            font-size: 1.2em;
+            text-align: left;
+            margin-top: 40px;
+        }
+
+        .partner-logos {
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            gap: 40px;
+        }
+        
+        .partner-logo {
+            max-height: 60px;
+            width: auto;
+            object-fit: contain;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+        
+        .partner-logo:hover {
+            opacity: 1;
         }
         

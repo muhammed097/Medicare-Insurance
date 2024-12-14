@@ -30,12 +30,12 @@
 
         <nav class="nav-links">
             <a href="index.html">Home</a>
-            <a href="http://127.0.0.1:5500/#index.html/#about">About Us</a>
-            <a href="individualmedicalinsurance.html">Individual Medical Insurance</a>
-            <a href="groupmedicalinsurance.html">Group Medical Insurance</a>
+            <a href="#about">About Us</a>
+            <a href="individualmedicalinsurance.html">Individual Medical Takaful</a>
+            <a href="groupmedicalinsurance.html">Group Medical Takaful</a>
             <a href="contactus.html"><button class="contact-btn">Contact Us</button>
-            </a>
-
+              </a>
+              
         </nav>
     </header>
     <!-- Contact Hero Section -->
@@ -49,8 +49,8 @@
     <section class="contact-section">
         <div class="contact-label">Get in Touch</div>
         <div class="contact-header">
-            <h2 class="contact-title">Love to hear from you</h2>
-            <h3 class="contact-subtitle">Get in touch!</h3>
+            <!-- <h2 class="contact-title">Love to hear from you</h2> -->
+            <!-- <h3 class="contact-subtitle">Get in touch!</h3> -->
         </div>
 
         <div class="contact-container">
@@ -58,21 +58,30 @@
                 <form class="contact-form">
                     <div class="form-group">
                         <label for="name">Your Name*</label>
-                        <input type="text" id="name" name="name" placeholder="Andrew Davis Kino..." required>
+                        <input type="text" id="name" name="name" placeholder="Mohamed Ibrahim" required>
                     </div>
 
                     <div class="form-group">
                         <label for="email">Your Email*</label>
-                        <input type="email" id="email" name="email" placeholder="info@biznow.net" required>
+                        <input type="email" id="email" name="email" placeholder="info@medicare.ae" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Select Service*</label>
+                        <select id="service" name="service" required>
+                            <option value="">Choose a service</option>
+                            <option value="individual">Individual Medical Takaful</option>
+                            <option value="group">Group Medical Takaful</option>
+                        </select>
                     </div>
 
                     <div class="form-group">
                         <label for="message">Message*</label>
-                        <textarea id="message" name="message" placeholder="Let tell us about your projects"
+                        <textarea id="message" name="message" placeholder="Let tell us about your need"
                             required></textarea>
                     </div>
 
-                    <button type="submit" class="submit-button">Submit Message</button>
+                    <button type="submit" class="submit-button">Submit</button>
                 </form>
             </div>
 
@@ -101,7 +110,7 @@
                 <div class="map-container">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14432.358824620223!2d55.297219687158204!3d25.267567600000014!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5ccae35a4a29%3A0x668f3dce4896a80f!2sOrient%20Takaful%20PJSC!5e0!3m2!1sen!2sus!4v1734150131504!5m2!1sen!2sus"
-                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
@@ -111,13 +120,13 @@
     <footer class="medicare__minimal-footer">
         <div class="medicare__minimal-footer-content">
             <div class="medicare__minimal-footer-copyright">
-                All rights reserved - Copyright © 2024 Medicare
+             All rights reserved - Copyright © 2024 Medicare 
             </div>
             <div class="medicare__minimal-footer-links">
                 <a href="index.html" class="medicare__minimal-footer-link">Home</a>
-                <a href="http://127.0.0.1:5500/#index.html/#about" class="medicare__minimal-footer-link">About Us</a>
-                <a href="individualmedicalinsurance.html" class="medicare__minimal-footer-link">Individual Medical Insurance</a>
-                <a href="groupmedicalinsurance.html" class="medicare__minimal-footer-link">Group Medical Insurance</a>
+                <a href="#about" class="medicare__minimal-footer-link">About Us</a>
+                <a href="individualmedicalinsurance.html" class="medicare__minimal-footer-link">Individual Medical Takaful</a>
+                <a href="groupmedicalinsurance.html" class="medicare__minimal-footer-link">Group Medical Takaful</a>
                 <a href="contactus.html" class="medicare__minimal-footer-link">Contact Us</a>
             </div>
         </div>
@@ -125,7 +134,7 @@
             Powered by <a href="https://gulfnados.com/">Gulfnados Technology Systems</a>
         </div>
     </footer>
-    <!-- Footer  -->
+        <!-- Footer  -->
 <script src="script.js"></script>
 </body>
 </html>

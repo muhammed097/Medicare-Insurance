@@ -45,7 +45,7 @@
     .section-label {
         text-align: center;
     }
-    
+
     .stats-section {
         grid-template-columns: 1fr;
         padding: 50px 5%;
@@ -151,6 +151,35 @@
 .contact-form-wrapper,
 .contact-info-wrapper {
     padding: 30px;
+}
+
+/* Individual Takaful  */
+.individual-plan-section {
+    padding: 60px 5%;
+}
+
+.content-label {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.content-body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.group-medical-section {
+    padding: 60px 5%;
+}
+
+.group-medical-label {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.group-medical-content {
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 }
