@@ -12,7 +12,7 @@
         background-color: white;
         flex-direction: column;
         padding: 1rem;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         align-items: flex-start;
         gap: 0.5rem;
     }
@@ -20,7 +20,7 @@
     .nav-links.active {
         display: flex;
     }
-    
+
     .nav-links a {
         padding: 10px 0;
         width: 100%;
@@ -61,7 +61,8 @@
         justify-content: center;
     }
 
-    .title-main, .title-sub {
+    .title-main,
+    .title-sub {
         font-size: 36px;
     }
 
@@ -105,101 +106,126 @@
         width: 30px;
         height: 30px;
     }
-/* Our Services Section Ends  */
 
-.medicare-faq {
-    padding: 60px 20px;
-}
+    /* Our Services Section Ends  */
 
-.medicare-faq__title {
-    font-size: 32px;
-}
+    .medicare-faq {
+        padding: 60px 20px;
+    }
 
-.medicare-faq__question {
-    padding: 20px;
-    font-size: 16px;
-}
+    .medicare-faq__title {
+        font-size: 32px;
+    }
 
-.medicare-faq__item.active .medicare-faq__answer {
-    padding: 0 20px 20px 20px;
-}
-.medicare__minimal-footer-content {
-    flex-direction: column;
-    gap: 20px;
-    text-align: center;
-}
+    .medicare-faq__question {
+        padding: 20px;
+        font-size: 16px;
+    }
 
-.medicare__minimal-footer-links {
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    .medicare-faq__item.active .medicare-faq__answer {
+        padding: 0 20px 20px 20px;
+    }
 
-/* Contact Us */
-.contact-hero h1 {
-    font-size: 36px;
-}
-.contact-container {
-    grid-template-columns: 1fr;
-}
+    .medicare__minimal-footer-content {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
 
-.contact-title,
-.contact-subtitle {
-    font-size: 32px;
-}
+    .medicare__minimal-footer-disclaimer {
+        max-width: 100%;
+        text-align: left;
+    }
 
-.contact-form-wrapper,
-.contact-info-wrapper {
-    padding: 30px;
-}
+    .medicare__minimal-footer-links {
+        flex-wrap: wrap;
+        justify-content: left;
+    }
 
-/* Individual Takaful  */
-.individual-plan-section {
-    padding: 60px 5%;
-}
+    .medicare__minimal-footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
 
-.content-label {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
+    .medicare__minimal-footer-image {
+        margin-bottom: 15px;
+    }
 
-.content-body {
-    font-size: 16px;
-    line-height: 1.6;
-}
+    .footer-logo {
+        max-height: 50px;
+    }
 
-.group-medical-section {
-    padding: 60px 5%;
-}
+    /* Contact Us */
+    .contact-hero h1 {
+        font-size: 36px;
+    }
 
-.group-medical-label {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
 
-.group-medical-content {
-    font-size: 16px;
-    line-height: 1.6;
-}
+    .contact-title,
+    .contact-subtitle {
+        font-size: 32px;
+    }
 
-.terms-section {
-    padding: 60px 5%;
-}
+    .contact-form-wrapper,
+    .contact-info-wrapper {
+        padding: 30px;
+    }
 
-.terms-label {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
+    /* Individual Takaful  */
+    .individual-plan-section {
+        padding: 60px 5%;
+    }
 
-.terms-content {
-    font-size: 15px;
-    line-height: 1.6;
-}
+    .content-label {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
 
-.terms-warning {
-    font-size: 1em;
-    padding: 15px;
-}
+    .content-body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .group-medical-section {
+        padding: 60px 5%;
+    }
+
+    .group-medical-label {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .group-medical-content {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .terms-section {
+        padding: 60px 5%;
+    }
+
+    .terms-label {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .terms-content {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .terms-warning {
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .partner-logos img {
+        text-align: center;
+    }
 
 }
 
@@ -207,7 +233,7 @@
     .services-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .feature-panel {
         margin-top: 30px;
     }
