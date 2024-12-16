@@ -598,6 +598,10 @@
         .footer-logo {
             max-height: 50px;
             width: auto;
+            transform: scale(5.5);
+            transform-origin: center;
+            margin-left: 6em;
+    
         }
 
 
